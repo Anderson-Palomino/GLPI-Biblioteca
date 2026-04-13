@@ -1,0 +1,8 @@
+# Docker volumes
+mysql-data/
+glpi-data/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
