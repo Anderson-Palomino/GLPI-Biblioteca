@@ -180,8 +180,9 @@ def tc_auto_08(token):
 
 # ── TC-AUTO-09: Creacion de usuario (TC-009) ─────────────────────────────────
 def tc_auto_09(token):
+    username = f"lector_auto_{int(time.time())}"
     payload = {"input": {
-        "name": "lector_auto_test",
+        "name": username,
         "realname": "Test Automatizado",
         "firstname": "Lector",
         "password": "Test2024!",
@@ -191,7 +192,7 @@ def tc_auto_09(token):
     if resp.status_code == 201:
         user_id = resp.json()["id"]
         log("TC-AUTO-09", "Creacion de nuevo usuario lector", "PASS",
-            f"Usuario creado con ID: {user_id}")
+            f"Usuario '{username}' creado con ID: {user_id}")
         requests.delete(f"{BASE_URL}/User/{user_id}", headers=h(token))
     else:
         log("TC-AUTO-09", "Creacion de nuevo usuario lector", "FAIL",
