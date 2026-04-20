@@ -251,8 +251,8 @@ def tc_auto_13(token):
                 log("TC-AUTO-13", "Verificacion de SLA en tickets de prestamo", "PASS",
                     "Campo de SLA presente en estructura de tickets")
             else:
-                log("TC-AUTO-13", "Verificacion de SLA en tickets de prestamo", "PASS",
-                    "Tickets accesibles, SLA configurable via reglas de negocio")
+                log("TC-AUTO-13", "Verificacion de SLA en tickets de prestamo", "FAIL",
+                    "SLA no configurado en la instancia GLPI, campo ausente en tickets")
         else:
             log("TC-AUTO-13", "Verificacion de SLA en tickets de prestamo", "FAIL",
                 "No hay tickets para verificar")
