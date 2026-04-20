@@ -1,0 +1,19 @@
+ID_Caso,Estado,Fecha_Ejecucion,Hora_Inicio,Hora_Fin,Duracion_min,Ejecutado_Por,Bug_Relacionado
+TC-001,Aprobado,12/04/2026,23:04,23:05,1,Palomino Sandoval Anderson,
+TC-002,Fallido,12/04/2026,23:07,23:08,1,Palomino Sandoval Anderson,BUG-001
+TC-003,Aprobado,12/04/2026,23:10,23:10,1,Palomino Sandoval Anderson,
+TC-004,Aprobado,12/04/2026,23:11,23:11,1,Palomino Sandoval Anderson,
+TC-005,Aprobado,12/04/2026,23:13,23:13,1,Palomino Sandoval Anderson,
+TC-006,Aprobado,12/04/2026,23:19,23:20,1,Palomino Sandoval Anderson,
+TC-007,Fallido,12/04/2026,23:23,23:23,1,Palomino Sandoval Anderson,BUG-002
+TC-008,Aprobado,12/04/2026,23:25,23:26,1,Palomino Sandoval Anderson,
+TC-009,Fallido,13/04/2026,00:03,00:03,1,Palomino Sandoval Anderson,BUG-005
+TC-010,Aprobado,12/04/2026,23:35,23:35,1,Palomino Sandoval Anderson,
+TC-011,Fallido,12/04/2026,23:41,23:41,1,Palomino Sandoval Anderson,BUG-003
+TC-012,Aprobado,12/04/2026,23:28,23:28,1,Palomino Sandoval Anderson,
+TC-013,Aprobado,12/04/2026,23:32,23:33,1,Palomino Sandoval Anderson,
+TC-014,Aprobado,12/04/2026,23:49,23:49,1,Palomino Sandoval Anderson,
+TC-015,Aprobado,12/04/2026,23:54,23:55,1,Palomino Sandoval Anderson,
+TC-016,Aprobado,12/04/2026,23:46,23:46,1,Palomino Sandoval Anderson,
+TC-017,Aprobado,12/04/2026,23:57,23:57,1,Palomino Sandoval Anderson,
+TC-018,Fallido,12/04/2026,23:59,01:02,3,Palomino Sandoval Anderson,BUG-004

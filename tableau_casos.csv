@@ -1,0 +1,19 @@
+ID_Caso,Modulo,Tipo_Prueba,Titulo,Prioridad
+TC-001,Gestión de Libros,Funcional,Registro exitoso de nuevo libro,Alta
+TC-002,Gestión de Libros,Funcional,Registro de libro con campos obligatorios vacíos,Alta
+TC-003,Gestión de Libros,Funcional,Búsqueda de libro por título,Media
+TC-004,Gestión de Libros,Funcional,Edición de información de libro existente,Media
+TC-005,Gestión de Libros,Funcional,Eliminación de libro del catálogo,Media
+TC-006,Préstamos,Funcional,Creación de préstamo exitoso,Alta
+TC-007,Préstamos,Funcional,Intento de préstamo de libro no disponible,Alta
+TC-008,Préstamos,Funcional,Devolución de libro prestado,Alta
+TC-009,Préstamos,Funcional,Alerta de préstamo vencido,Alta
+TC-010,Gestión de Usuarios,Funcional,Registro de nuevo usuario/lector,Alta
+TC-011,Gestión de Usuarios,Funcional,Registro de usuario con DNI duplicado,Alta
+TC-012,Gestión de Usuarios,Seguridad,Acceso con credenciales inválidas,Alta
+TC-013,Gestión de Usuarios,Seguridad,Verificación de permisos por rol,Alta
+TC-014,Reportes,Funcional,Generación de reporte de préstamos mensuales,Media
+TC-015,Reportes,Funcional,Exportación de reporte a PDF/CSV,Media
+TC-016,Catálogo,Funcional,Filtrado de libros por categoría,Media
+TC-017,Catálogo,No Funcional,Tiempo de respuesta en búsqueda con alto volumen,Media
+TC-018,Integración,Integración,Sincronización préstamo-inventario,Alta
