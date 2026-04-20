@@ -1,0 +1,55 @@
+{
+  "fecha_ejecucion": "2026-04-19 19:11:25",
+  "equipo": "Perez Huarachi Daniel | Palomino Sandoval Anderson | Sarmiento Castro Luis",
+  "sistema": "GLPI Biblioteca - http://localhost:8080",
+  "resumen": {
+    "total": 7,
+    "aprobados": 6,
+    "fallidos": 1,
+    "porcentaje_exito": "85.7%"
+  },
+  "casos": [
+    {
+      "id": "TC-AUTO-02",
+      "nombre": "Autenticación con credenciales inválidas",
+      "estado": "PASS",
+      "detalle": "Sistema rechazó correctamente (HTTP 401)"
+    },
+    {
+      "id": "TC-AUTO-01",
+      "nombre": "Autenticación con credenciales válidas",
+      "estado": "PASS",
+      "detalle": "Session token obtenido: kq0bm9lthp48lp45sebo..."
+    },
+    {
+      "id": "TC-AUTO-03",
+      "nombre": "Catálogo de libros accesible via API",
+      "estado": "PASS",
+      "detalle": "15 activos encontrados en el catálogo"
+    },
+    {
+      "id": "TC-AUTO-04",
+      "nombre": "Registro de libro via API",
+      "estado": "PASS",
+      "detalle": "Libro creado con ID: 17"
+    },
+    {
+      "id": "TC-AUTO-05",
+      "nombre": "Eliminación de libro de prueba",
+      "estado": "PASS",
+      "detalle": "Libro ID 17 eliminado correctamente"
+    },
+    {
+      "id": "TC-AUTO-06",
+      "nombre": "Tickets de préstamo accesibles via API",
+      "estado": "PASS",
+      "detalle": "8 tickets encontrados"
+    },
+    {
+      "id": "TC-AUTO-07",
+      "nombre": "Validación préstamo duplicado (BUG-002)",
+      "estado": "FAIL",
+      "detalle": "BUG confirmado: sistema creó dos tickets duplicados (ID 9 y 10). GLPI no valida duplicados."
+    }
+  ]
+}
