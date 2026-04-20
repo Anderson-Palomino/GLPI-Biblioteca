@@ -1,55 +1,122 @@
 {
-  "fecha_ejecucion": "2026-04-19 19:11:25",
+  "fecha_ejecucion": "2026-04-19 19:16:45",
   "equipo": "Perez Huarachi Daniel | Palomino Sandoval Anderson | Sarmiento Castro Luis",
+  "curso": "Pruebas de Software - UTP",
   "sistema": "GLPI Biblioteca - http://localhost:8080",
   "resumen": {
-    "total": 7,
-    "aprobados": 6,
+    "total": 18,
+    "aprobados": 17,
     "fallidos": 1,
-    "porcentaje_exito": "85.7%"
+    "porcentaje_exito": "94.4%"
   },
   "casos": [
     {
-      "id": "TC-AUTO-02",
-      "nombre": "Autenticación con credenciales inválidas",
+      "id": "TC-AUTO-10",
+      "nombre": "Autenticacion con credenciales invalidas",
       "estado": "PASS",
-      "detalle": "Sistema rechazó correctamente (HTTP 401)"
+      "detalle": "Sistema rechazo correctamente (HTTP 401)"
+    },
+    {
+      "id": "TC-AUTO-11",
+      "nombre": "Autenticacion con credenciales validas",
+      "estado": "PASS",
+      "detalle": "Session token obtenido: 52474ujfqvrgoie3aqrf..."
     },
     {
       "id": "TC-AUTO-01",
-      "nombre": "Autenticación con credenciales válidas",
+      "nombre": "Registro de nuevo libro en el catalogo",
       "estado": "PASS",
-      "detalle": "Session token obtenido: kq0bm9lthp48lp45sebo..."
+      "detalle": "Libro creado con ID: 18"
+    },
+    {
+      "id": "TC-AUTO-02",
+      "nombre": "Busqueda de libro por nombre",
+      "estado": "PASS",
+      "detalle": "Se encontraron 1 resultado(s) para 'Clean Code'"
     },
     {
       "id": "TC-AUTO-03",
-      "nombre": "Catálogo de libros accesible via API",
+      "nombre": "Edicion de datos de libro",
       "estado": "PASS",
-      "detalle": "15 activos encontrados en el catálogo"
+      "detalle": "Libro ID 18 actualizado correctamente"
     },
     {
       "id": "TC-AUTO-04",
-      "nombre": "Registro de libro via API",
+      "nombre": "Visualizacion del catalogo completo de libros",
       "estado": "PASS",
-      "detalle": "Libro creado con ID: 17"
+      "detalle": "Catalogo accesible con 16 activos registrados"
     },
     {
       "id": "TC-AUTO-05",
-      "nombre": "Eliminación de libro de prueba",
+      "nombre": "Verificacion de estado de libro en inventario",
       "estado": "PASS",
-      "detalle": "Libro ID 17 eliminado correctamente"
+      "detalle": "Libro 'Clean Code' encontrado, estado_id=0"
     },
     {
       "id": "TC-AUTO-06",
-      "nombre": "Tickets de préstamo accesibles via API",
+      "nombre": "Creacion de ticket de prestamo",
       "estado": "PASS",
-      "detalle": "8 tickets encontrados"
+      "detalle": "Ticket creado con ID: 11"
     },
     {
       "id": "TC-AUTO-07",
-      "nombre": "Validación préstamo duplicado (BUG-002)",
+      "nombre": "Validacion prestamo duplicado (BUG-002)",
       "estado": "FAIL",
-      "detalle": "BUG confirmado: sistema creó dos tickets duplicados (ID 9 y 10). GLPI no valida duplicados."
+      "detalle": "BUG confirmado: GLPI acepto dos tickets identicos (ID 12 e ID 13). Sin validacion de duplicados."
+    },
+    {
+      "id": "TC-AUTO-08",
+      "nombre": "Devolucion de libro (cambio estado ticket a Resuelto)",
+      "estado": "PASS",
+      "detalle": "Ticket ID 11 marcado como Resuelto"
+    },
+    {
+      "id": "TC-AUTO-09",
+      "nombre": "Creacion de nuevo usuario lector",
+      "estado": "PASS",
+      "detalle": "Usuario creado con ID: 16"
+    },
+    {
+      "id": "TC-AUTO-12",
+      "nombre": "Verificacion de perfil del usuario autenticado",
+      "estado": "PASS",
+      "detalle": "Perfiles asignados: Super-Admin"
+    },
+    {
+      "id": "TC-AUTO-13",
+      "nombre": "Verificacion de SLA en tickets de prestamo",
+      "estado": "PASS",
+      "detalle": "Campo de SLA presente en estructura de tickets"
+    },
+    {
+      "id": "TC-AUTO-14",
+      "nombre": "Generacion de reporte de prestamos",
+      "estado": "PASS",
+      "detalle": "Total tickets: 9 | Resueltos: 3 | Abiertos: 5"
+    },
+    {
+      "id": "TC-AUTO-15",
+      "nombre": "Exportacion de datos del catalogo en JSON",
+      "estado": "PASS",
+      "detalle": "Datos exportados correctamente: 16 registros en formato JSON"
+    },
+    {
+      "id": "TC-AUTO-16",
+      "nombre": "Busqueda avanzada por categoria Tecnologia",
+      "estado": "PASS",
+      "detalle": "Busqueda ejecutada correctamente, 4 resultado(s)"
+    },
+    {
+      "id": "TC-AUTO-17",
+      "nombre": "Tiempo de respuesta del sistema (rendimiento)",
+      "estado": "PASS",
+      "detalle": "Respuesta en 50ms (limite: 3000ms)"
+    },
+    {
+      "id": "TC-AUTO-18",
+      "nombre": "Eliminacion de libro de prueba del catalogo",
+      "estado": "PASS",
+      "detalle": "Libro ID 18 eliminado correctamente del catalogo"
     }
   ]
 }
