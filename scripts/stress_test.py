@@ -159,8 +159,23 @@ def main():
     fase5["fase"] = "Estres Extremo (100 concurrentes)"
     fases.append(fase5)
 
-    # FASE 6: Tiempo de estabilizacion
-    estabilizacion = medir_estabilizacion(token, baseline_ms)
+    # FASE 6: Estres severo - 200 concurrentes
+    fase6 = ejecutar_carga(token, num_peticiones=400, num_concurrentes=200)
+    fase6["fase"] = "Estres Severo (200 concurrentes)"
+    fases.append(fase6)
+
+    # FASE 7: Estres critico - 500 concurrentes
+    fase7 = ejecutar_carga(token, num_peticiones=1000, num_concurrentes=500)
+    fase7["fase"] = "Estres Critico (500 concurrentes)"
+    fases.append(fase7)
+
+    # FASE 8: Punto de quiebre - 1000 concurrentes
+    fase8 = ejecutar_carga(token, num_peticiones=2000, num_concurrentes=1000)
+    fase8["fase"] = "Punto de Quiebre (1000 concurrentes)"
+    fases.append(fase8)
+
+    # FASE 9: Tiempo de estabilizacion
+    estabilizacion = medir_estabilizacion(token, baseline_ms, max_intentos=60)
 
     # Reporte final
     reporte = {
