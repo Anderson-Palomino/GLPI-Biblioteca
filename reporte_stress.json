@@ -1,0 +1,77 @@
+{
+  "fecha": "2026-04-27 20:39:47",
+  "equipo": "Perez Huarachi Daniel | Palomino Sandoval Anderson | Sarmiento Castro Luis",
+  "sistema": "GLPI Biblioteca - http://localhost:8080",
+  "baseline_ms": 156.97,
+  "fases": [
+    {
+      "peticiones": 20,
+      "concurrentes": 5,
+      "duracion_total_seg": 0.24,
+      "throughput_req_seg": 81.82,
+      "tiempo_promedio_ms": 54.42,
+      "tiempo_min_ms": 38.76,
+      "tiempo_max_ms": 79.55,
+      "tiempo_mediana_ms": 50.69,
+      "p95_ms": 77.14,
+      "p99_ms": 77.14,
+      "exitos": 20,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "fase": "Carga Ligera (5 concurrentes)"
+    },
+    {
+      "peticiones": 50,
+      "concurrentes": 20,
+      "duracion_total_seg": 0.3,
+      "throughput_req_seg": 166.96,
+      "tiempo_promedio_ms": 93.2,
+      "tiempo_min_ms": 53.14,
+      "tiempo_max_ms": 124.32,
+      "tiempo_mediana_ms": 97.23,
+      "p95_ms": 119.05,
+      "p99_ms": 123.85,
+      "exitos": 50,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "fase": "Carga Media (20 concurrentes)"
+    },
+    {
+      "peticiones": 100,
+      "concurrentes": 50,
+      "duracion_total_seg": 0.5,
+      "throughput_req_seg": 201.41,
+      "tiempo_promedio_ms": 173.9,
+      "tiempo_min_ms": 43.16,
+      "tiempo_max_ms": 233.48,
+      "tiempo_mediana_ms": 197.21,
+      "p95_ms": 225.51,
+      "p99_ms": 231.01,
+      "exitos": 100,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "fase": "Estres (50 concurrentes)"
+    },
+    {
+      "peticiones": 200,
+      "concurrentes": 100,
+      "duracion_total_seg": 0.92,
+      "throughput_req_seg": 217.91,
+      "tiempo_promedio_ms": 299.86,
+      "tiempo_min_ms": 48.36,
+      "tiempo_max_ms": 422.61,
+      "tiempo_mediana_ms": 342.77,
+      "p95_ms": 405.24,
+      "p99_ms": 416.26,
+      "exitos": 200,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "fase": "Estres Extremo (100 concurrentes)"
+    }
+  ],
+  "estabilizacion_post_estres": {
+    "tiempo_estabilizacion_seg": 0.55,
+    "intentos": 1,
+    "ultima_muestra_ms": 47.57
+  }
+}
