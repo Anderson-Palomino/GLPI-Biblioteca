@@ -1,0 +1,1011 @@
+{
+  "fecha": "2026-04-27 20:55:59",
+  "equipo": "Perez Huarachi Daniel | Palomino Sandoval Anderson | Sarmiento Castro Luis",
+  "tipo_prueba": "Estres Catastrofico con monitoreo de hardware",
+  "cpu_pico_porcentaje": 814.24,
+  "memoria_pico": "575.7MiB / 6.674GiB",
+  "fases": [
+    {
+      "fase": "Carga Normal (50 conc.)",
+      "peticiones": 100,
+      "concurrentes": 50,
+      "duracion_total_seg": 0.62,
+      "throughput_req_seg": 162.19,
+      "tiempo_promedio_ms": 215.55,
+      "tiempo_max_ms": 280.61,
+      "p95_ms": 269.44,
+      "p99_ms": 279.5,
+      "exitos": 100,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "tipos_de_error": {},
+      "hardware_inicio": {
+        "glpi": {
+          "cpu": "0.02%",
+          "mem_uso": "160.9MiB / 6.674GiB",
+          "mem_pct": "2.35%",
+          "net_io": "1.43GB / 1.44GB",
+          "block_io": "95.7MB / 5.79MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.69%",
+          "mem_uso": "653.3MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "131MB / 1.39GB",
+          "block_io": "171MB / 37.9MB"
+        }
+      },
+      "hardware_fin": {
+        "glpi": {
+          "cpu": "2.33%",
+          "mem_uso": "156MiB / 6.674GiB",
+          "mem_pct": "2.28%",
+          "net_io": "1.43GB / 1.45GB",
+          "block_io": "95.7MB / 5.79MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.87%",
+          "mem_uso": "653.4MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "131MB / 1.39GB",
+          "block_io": "171MB / 38MB"
+        }
+      }
+    },
+    {
+      "fase": "Hora Pico (250 conc.)",
+      "peticiones": 500,
+      "concurrentes": 250,
+      "duracion_total_seg": 2.3,
+      "throughput_req_seg": 217.24,
+      "tiempo_promedio_ms": 601.42,
+      "tiempo_max_ms": 816.45,
+      "p95_ms": 774.85,
+      "p99_ms": 796.51,
+      "exitos": 500,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "tipos_de_error": {},
+      "hardware_inicio": {
+        "glpi": {
+          "cpu": "0.01%",
+          "mem_uso": "155.7MiB / 6.674GiB",
+          "mem_pct": "2.28%",
+          "net_io": "1.43GB / 1.45GB",
+          "block_io": "95.7MB / 5.79MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.65%",
+          "mem_uso": "653.4MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "131MB / 1.39GB",
+          "block_io": "171MB / 38MB"
+        }
+      },
+      "hardware_fin": {
+        "glpi": {
+          "cpu": "2.31%",
+          "mem_uso": "158.3MiB / 6.674GiB",
+          "mem_pct": "2.32%",
+          "net_io": "1.45GB / 1.47GB",
+          "block_io": "95.7MB / 5.79MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.67%",
+          "mem_uso": "653.5MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "133MB / 1.41GB",
+          "block_io": "171MB / 38MB"
+        }
+      }
+    },
+    {
+      "fase": "Hora Pico Universidad (1000 conc.)",
+      "peticiones": 2000,
+      "concurrentes": 1000,
+      "duracion_total_seg": 7.88,
+      "throughput_req_seg": 253.75,
+      "tiempo_promedio_ms": 1518.02,
+      "tiempo_max_ms": 2820.77,
+      "p95_ms": 2184.68,
+      "p99_ms": 2354.14,
+      "exitos": 2000,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "tipos_de_error": {},
+      "hardware_inicio": {
+        "glpi": {
+          "cpu": "0.01%",
+          "mem_uso": "155.1MiB / 6.674GiB",
+          "mem_pct": "2.27%",
+          "net_io": "1.45GB / 1.47GB",
+          "block_io": "95.7MB / 5.79MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.38%",
+          "mem_uso": "653.5MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "133MB / 1.41GB",
+          "block_io": "171MB / 38MB"
+        }
+      },
+      "hardware_fin": {
+        "glpi": {
+          "cpu": "1.77%",
+          "mem_uso": "434.2MiB / 6.674GiB",
+          "mem_pct": "6.35%",
+          "net_io": "1.53GB / 1.55GB",
+          "block_io": "95.7MB / 5.97MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.48%",
+          "mem_uso": "653.5MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "140MB / 1.49GB",
+          "block_io": "171MB / 38MB"
+        }
+      }
+    },
+    {
+      "fase": "Black Friday (2500 conc.)",
+      "peticiones": 5000,
+      "concurrentes": 2500,
+      "duracion_total_seg": 18.75,
+      "throughput_req_seg": 266.67,
+      "tiempo_promedio_ms": 1729.38,
+      "tiempo_max_ms": 5660.26,
+      "p95_ms": 3127.98,
+      "p99_ms": 3920.05,
+      "exitos": 5000,
+      "fallos": 0,
+      "tasa_exito": "100.0%",
+      "tipos_de_error": {},
+      "hardware_inicio": {
+        "glpi": {
+          "cpu": "22.15%",
+          "mem_uso": "428MiB / 6.674GiB",
+          "mem_pct": "6.26%",
+          "net_io": "1.53GB / 1.55GB",
+          "block_io": "95.7MB / 5.97MB"
+        },
+        "glpi-mysql": {
+          "cpu": "6.58%",
+          "mem_uso": "653.5MiB / 6.674GiB",
+          "mem_pct": "9.56%",
+          "net_io": "140MB / 1.49GB",
+          "block_io": "171MB / 38.8MB"
+        }
+      },
+      "hardware_fin": {
+        "glpi": {
+          "cpu": "2.31%",
+          "mem_uso": "563.1MiB / 6.674GiB",
+          "mem_pct": "8.24%",
+          "net_io": "1.72GB / 1.74GB",
+          "block_io": "95.7MB / 6.4MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.72%",
+          "mem_uso": "657.3MiB / 6.674GiB",
+          "mem_pct": "9.62%",
+          "net_io": "158MB / 1.68GB",
+          "block_io": "171MB / 38.8MB"
+        }
+      }
+    },
+    {
+      "fase": "Ataque DDoS Simulado (5000 conc.)",
+      "peticiones": 10000,
+      "concurrentes": 5000,
+      "duracion_total_seg": 40.66,
+      "throughput_req_seg": 245.92,
+      "tiempo_promedio_ms": 3898.93,
+      "tiempo_max_ms": 14222.63,
+      "p95_ms": 12083.86,
+      "p99_ms": 12790.19,
+      "exitos": 9744,
+      "fallos": 256,
+      "tasa_exito": "97.4%",
+      "tipos_de_error": {
+        "ERROR_CONEXION": 256
+      },
+      "hardware_inicio": {
+        "glpi": {
+          "cpu": "2.69%",
+          "mem_uso": "557.2MiB / 6.674GiB",
+          "mem_pct": "8.15%",
+          "net_io": "1.72GB / 1.74GB",
+          "block_io": "95.7MB / 6.84MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.75%",
+          "mem_uso": "657.3MiB / 6.674GiB",
+          "mem_pct": "9.62%",
+          "net_io": "158MB / 1.68GB",
+          "block_io": "171MB / 38.8MB"
+        }
+      },
+      "hardware_fin": {
+        "glpi": {
+          "cpu": "1.81%",
+          "mem_uso": "565.7MiB / 6.674GiB",
+          "mem_pct": "8.28%",
+          "net_io": "2.1GB / 2.13GB",
+          "block_io": "95.7MB / 7.77MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.21%",
+          "mem_uso": "667.4MiB / 6.674GiB",
+          "mem_pct": "9.77%",
+          "net_io": "193MB / 2.05GB",
+          "block_io": "171MB / 38.8MB"
+        }
+      }
+    },
+    {
+      "fase": "APOCALIPSIS (10000 conc.)",
+      "peticiones": 20000,
+      "concurrentes": 10000,
+      "duracion_total_seg": 45.81,
+      "throughput_req_seg": 436.61,
+      "tiempo_promedio_ms": 952.35,
+      "tiempo_max_ms": 4335.15,
+      "p95_ms": 1955.2,
+      "p99_ms": 2789.93,
+      "exitos": 1492,
+      "fallos": 18508,
+      "tasa_exito": "7.5%",
+      "tipos_de_error": {
+        "ERROR_CONEXION": 18508
+      },
+      "hardware_inicio": {
+        "glpi": {
+          "cpu": "2.09%",
+          "mem_uso": "559.7MiB / 6.674GiB",
+          "mem_pct": "8.19%",
+          "net_io": "2.1GB / 2.13GB",
+          "block_io": "95.7MB / 7.77MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.47%",
+          "mem_uso": "667.4MiB / 6.674GiB",
+          "mem_pct": "9.77%",
+          "net_io": "193MB / 2.05GB",
+          "block_io": "171MB / 38.8MB"
+        }
+      },
+      "hardware_fin": {
+        "glpi": {
+          "cpu": "2.19%",
+          "mem_uso": "462.9MiB / 6.674GiB",
+          "mem_pct": "6.77%",
+          "net_io": "2.16GB / 2.19GB",
+          "block_io": "95.7MB / 8.39MB"
+        },
+        "glpi-mysql": {
+          "cpu": "1.49%",
+          "mem_uso": "667.8MiB / 6.674GiB",
+          "mem_pct": "9.77%",
+          "net_io": "198MB / 2.1GB",
+          "block_io": "171MB / 39MB"
+        }
+      }
+    }
+  ],
+  "muestras_hardware": [
+    {
+      "glpi": {
+        "cpu": "0.02%",
+        "mem_uso": "160.9MiB / 6.674GiB",
+        "mem_pct": "2.35%",
+        "net_io": "1.43GB / 1.44GB",
+        "block_io": "95.7MB / 5.79MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.69%",
+        "mem_uso": "653.3MiB / 6.674GiB",
+        "mem_pct": "9.56%",
+        "net_io": "131MB / 1.39GB",
+        "block_io": "171MB / 37.9MB"
+      },
+      "timestamp": "20:53:40"
+    },
+    {
+      "glpi": {
+        "cpu": "0.02%",
+        "mem_uso": "155.7MiB / 6.674GiB",
+        "mem_pct": "2.28%",
+        "net_io": "1.43GB / 1.45GB",
+        "block_io": "95.7MB / 5.79MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.57%",
+        "mem_uso": "653.4MiB / 6.674GiB",
+        "mem_pct": "9.56%",
+        "net_io": "131MB / 1.39GB",
+        "block_io": "171MB / 38MB"
+      },
+      "timestamp": "20:53:43"
+    },
+    {
+      "glpi": {
+        "cpu": "585.12%",
+        "mem_uso": "165MiB / 6.674GiB",
+        "mem_pct": "2.41%",
+        "net_io": "1.45GB / 1.46GB",
+        "block_io": "95.7MB / 5.79MB"
+      },
+      "glpi-mysql": {
+        "cpu": "292.04%",
+        "mem_uso": "653.8MiB / 6.674GiB",
+        "mem_pct": "9.57%",
+        "net_io": "133MB / 1.41GB",
+        "block_io": "171MB / 38MB"
+      },
+      "timestamp": "20:53:46"
+    },
+    {
+      "glpi": {
+        "cpu": "1.93%",
+        "mem_uso": "155.1MiB / 6.674GiB",
+        "mem_pct": "2.27%",
+        "net_io": "1.45GB / 1.47GB",
+        "block_io": "95.7MB / 5.79MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.56%",
+        "mem_uso": "653.5MiB / 6.674GiB",
+        "mem_pct": "9.56%",
+        "net_io": "133MB / 1.41GB",
+        "block_io": "171MB / 38MB"
+      },
+      "timestamp": "20:53:49"
+    },
+    {
+      "glpi": {
+        "cpu": "493.77%",
+        "mem_uso": "164.7MiB / 6.674GiB",
+        "mem_pct": "2.41%",
+        "net_io": "1.46GB / 1.48GB",
+        "block_io": "95.7MB / 5.79MB"
+      },
+      "glpi-mysql": {
+        "cpu": "255.79%",
+        "mem_uso": "654MiB / 6.674GiB",
+        "mem_pct": "9.57%",
+        "net_io": "134MB / 1.43GB",
+        "block_io": "171MB / 38MB"
+      },
+      "timestamp": "20:53:52"
+    },
+    {
+      "glpi": {
+        "cpu": "695.17%",
+        "mem_uso": "247.8MiB / 6.674GiB",
+        "mem_pct": "3.63%",
+        "net_io": "1.49GB / 1.51GB",
+        "block_io": "95.7MB / 5.97MB"
+      },
+      "glpi-mysql": {
+        "cpu": "338.23%",
+        "mem_uso": "655.2MiB / 6.674GiB",
+        "mem_pct": "9.59%",
+        "net_io": "137MB / 1.45GB",
+        "block_io": "171MB / 38MB"
+      },
+      "timestamp": "20:53:55"
+    },
+    {
+      "glpi": {
+        "cpu": "382.05%",
+        "mem_uso": "437MiB / 6.674GiB",
+        "mem_pct": "6.39%",
+        "net_io": "1.53GB / 1.55GB",
+        "block_io": "95.7MB / 5.97MB"
+      },
+      "glpi-mysql": {
+        "cpu": "416.88%",
+        "mem_uso": "658.9MiB / 6.674GiB",
+        "mem_pct": "9.64%",
+        "net_io": "140MB / 1.48GB",
+        "block_io": "171MB / 38MB"
+      },
+      "timestamp": "20:53:59"
+    },
+    {
+      "glpi": {
+        "cpu": "22.15%",
+        "mem_uso": "428MiB / 6.674GiB",
+        "mem_pct": "6.26%",
+        "net_io": "1.53GB / 1.55GB",
+        "block_io": "95.7MB / 5.97MB"
+      },
+      "glpi-mysql": {
+        "cpu": "6.58%",
+        "mem_uso": "653.5MiB / 6.674GiB",
+        "mem_pct": "9.56%",
+        "net_io": "140MB / 1.49GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:02"
+    },
+    {
+      "glpi": {
+        "cpu": "730.10%",
+        "mem_uso": "426MiB / 6.674GiB",
+        "mem_pct": "6.23%",
+        "net_io": "1.56GB / 1.58GB",
+        "block_io": "95.7MB / 5.97MB"
+      },
+      "glpi-mysql": {
+        "cpu": "369.55%",
+        "mem_uso": "659.1MiB / 6.674GiB",
+        "mem_pct": "9.64%",
+        "net_io": "143MB / 1.52GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:05"
+    },
+    {
+      "glpi": {
+        "cpu": "731.50%",
+        "mem_uso": "464.4MiB / 6.674GiB",
+        "mem_pct": "6.80%",
+        "net_io": "1.59GB / 1.6GB",
+        "block_io": "95.7MB / 5.97MB"
+      },
+      "glpi-mysql": {
+        "cpu": "358.66%",
+        "mem_uso": "662.6MiB / 6.674GiB",
+        "mem_pct": "9.70%",
+        "net_io": "147MB / 1.56GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:08"
+    },
+    {
+      "glpi": {
+        "cpu": "662.82%",
+        "mem_uso": "572.4MiB / 6.674GiB",
+        "mem_pct": "8.38%",
+        "net_io": "1.63GB / 1.64GB",
+        "block_io": "95.7MB / 6.4MB"
+      },
+      "glpi-mysql": {
+        "cpu": "338.13%",
+        "mem_uso": "664.5MiB / 6.674GiB",
+        "mem_pct": "9.72%",
+        "net_io": "148MB / 1.58GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:12"
+    },
+    {
+      "glpi": {
+        "cpu": "699.52%",
+        "mem_uso": "572.6MiB / 6.674GiB",
+        "mem_pct": "8.38%",
+        "net_io": "1.66GB / 1.67GB",
+        "block_io": "95.7MB / 6.4MB"
+      },
+      "glpi-mysql": {
+        "cpu": "346.13%",
+        "mem_uso": "665.2MiB / 6.674GiB",
+        "mem_pct": "9.73%",
+        "net_io": "152MB / 1.61GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:15"
+    },
+    {
+      "glpi": {
+        "cpu": "718.89%",
+        "mem_uso": "573.5MiB / 6.674GiB",
+        "mem_pct": "8.39%",
+        "net_io": "1.68GB / 1.7GB",
+        "block_io": "95.7MB / 6.4MB"
+      },
+      "glpi-mysql": {
+        "cpu": "351.66%",
+        "mem_uso": "666.3MiB / 6.674GiB",
+        "mem_pct": "9.75%",
+        "net_io": "155MB / 1.65GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:18"
+    },
+    {
+      "glpi": {
+        "cpu": "620.61%",
+        "mem_uso": "569.1MiB / 6.674GiB",
+        "mem_pct": "8.33%",
+        "net_io": "1.72GB / 1.74GB",
+        "block_io": "95.7MB / 6.4MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.37%",
+        "mem_uso": "657.3MiB / 6.674GiB",
+        "mem_pct": "9.62%",
+        "net_io": "158MB / 1.68GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:21"
+    },
+    {
+      "glpi": {
+        "cpu": "2.69%",
+        "mem_uso": "557.2MiB / 6.674GiB",
+        "mem_pct": "8.15%",
+        "net_io": "1.72GB / 1.74GB",
+        "block_io": "95.7MB / 6.84MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.75%",
+        "mem_uso": "657.3MiB / 6.674GiB",
+        "mem_pct": "9.62%",
+        "net_io": "158MB / 1.68GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:25"
+    },
+    {
+      "glpi": {
+        "cpu": "721.13%",
+        "mem_uso": "558.5MiB / 6.674GiB",
+        "mem_pct": "8.17%",
+        "net_io": "1.74GB / 1.76GB",
+        "block_io": "95.7MB / 6.84MB"
+      },
+      "glpi-mysql": {
+        "cpu": "350.00%",
+        "mem_uso": "667.1MiB / 6.674GiB",
+        "mem_pct": "9.76%",
+        "net_io": "161MB / 1.71GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:28"
+    },
+    {
+      "glpi": {
+        "cpu": "686.13%",
+        "mem_uso": "573.2MiB / 6.674GiB",
+        "mem_pct": "8.39%",
+        "net_io": "1.78GB / 1.8GB",
+        "block_io": "95.7MB / 6.84MB"
+      },
+      "glpi-mysql": {
+        "cpu": "327.72%",
+        "mem_uso": "669MiB / 6.674GiB",
+        "mem_pct": "9.79%",
+        "net_io": "164MB / 1.74GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:31"
+    },
+    {
+      "glpi": {
+        "cpu": "689.87%",
+        "mem_uso": "574.2MiB / 6.674GiB",
+        "mem_pct": "8.40%",
+        "net_io": "1.82GB / 1.84GB",
+        "block_io": "95.7MB / 6.84MB"
+      },
+      "glpi-mysql": {
+        "cpu": "350.28%",
+        "mem_uso": "669.1MiB / 6.674GiB",
+        "mem_pct": "9.79%",
+        "net_io": "167MB / 1.77GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:34"
+    },
+    {
+      "glpi": {
+        "cpu": "684.09%",
+        "mem_uso": "573.8MiB / 6.674GiB",
+        "mem_pct": "8.40%",
+        "net_io": "1.84GB / 1.86GB",
+        "block_io": "95.7MB / 6.84MB"
+      },
+      "glpi-mysql": {
+        "cpu": "366.01%",
+        "mem_uso": "670.7MiB / 6.674GiB",
+        "mem_pct": "9.81%",
+        "net_io": "170MB / 1.8GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:38"
+    },
+    {
+      "glpi": {
+        "cpu": "681.39%",
+        "mem_uso": "574.4MiB / 6.674GiB",
+        "mem_pct": "8.40%",
+        "net_io": "1.88GB / 1.9GB",
+        "block_io": "95.7MB / 7.32MB"
+      },
+      "glpi-mysql": {
+        "cpu": "354.02%",
+        "mem_uso": "671.3MiB / 6.674GiB",
+        "mem_pct": "9.82%",
+        "net_io": "172MB / 1.82GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:41"
+    },
+    {
+      "glpi": {
+        "cpu": "711.25%",
+        "mem_uso": "574.3MiB / 6.674GiB",
+        "mem_pct": "8.40%",
+        "net_io": "1.91GB / 1.94GB",
+        "block_io": "95.7MB / 7.32MB"
+      },
+      "glpi-mysql": {
+        "cpu": "359.43%",
+        "mem_uso": "671.2MiB / 6.674GiB",
+        "mem_pct": "9.82%",
+        "net_io": "175MB / 1.86GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:44"
+    },
+    {
+      "glpi": {
+        "cpu": "712.77%",
+        "mem_uso": "574.1MiB / 6.674GiB",
+        "mem_pct": "8.40%",
+        "net_io": "1.94GB / 1.96GB",
+        "block_io": "95.7MB / 7.32MB"
+      },
+      "glpi-mysql": {
+        "cpu": "359.64%",
+        "mem_uso": "670.6MiB / 6.674GiB",
+        "mem_pct": "9.81%",
+        "net_io": "178MB / 1.89GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:47"
+    },
+    {
+      "glpi": {
+        "cpu": "651.67%",
+        "mem_uso": "574.7MiB / 6.674GiB",
+        "mem_pct": "8.41%",
+        "net_io": "1.96GB / 1.98GB",
+        "block_io": "95.7MB / 7.32MB"
+      },
+      "glpi-mysql": {
+        "cpu": "318.50%",
+        "mem_uso": "672.5MiB / 6.674GiB",
+        "mem_pct": "9.84%",
+        "net_io": "181MB / 1.92GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:50"
+    },
+    {
+      "glpi": {
+        "cpu": "603.15%",
+        "mem_uso": "575.3MiB / 6.674GiB",
+        "mem_pct": "8.42%",
+        "net_io": "2GB / 2.02GB",
+        "block_io": "95.7MB / 7.32MB"
+      },
+      "glpi-mysql": {
+        "cpu": "283.73%",
+        "mem_uso": "673.2MiB / 6.674GiB",
+        "mem_pct": "9.85%",
+        "net_io": "183MB / 1.94GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:53"
+    },
+    {
+      "glpi": {
+        "cpu": "161.86%",
+        "mem_uso": "575.4MiB / 6.674GiB",
+        "mem_pct": "8.42%",
+        "net_io": "2GB / 2.03GB",
+        "block_io": "95.7MB / 7.77MB"
+      },
+      "glpi-mysql": {
+        "cpu": "416.13%",
+        "mem_uso": "672.7MiB / 6.674GiB",
+        "mem_pct": "9.84%",
+        "net_io": "184MB / 1.95GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:54:57"
+    },
+    {
+      "glpi": {
+        "cpu": "795.24%",
+        "mem_uso": "575MiB / 6.674GiB",
+        "mem_pct": "8.41%",
+        "net_io": "2.05GB / 2.07GB",
+        "block_io": "95.7MB / 7.77MB"
+      },
+      "glpi-mysql": {
+        "cpu": "421.30%",
+        "mem_uso": "676.5MiB / 6.674GiB",
+        "mem_pct": "9.90%",
+        "net_io": "187MB / 1.98GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:01"
+    },
+    {
+      "glpi": {
+        "cpu": "814.24%",
+        "mem_uso": "575.7MiB / 6.674GiB",
+        "mem_pct": "8.42%",
+        "net_io": "2.09GB / 2.11GB",
+        "block_io": "95.7MB / 7.77MB"
+      },
+      "glpi-mysql": {
+        "cpu": "404.91%",
+        "mem_uso": "678.2MiB / 6.674GiB",
+        "mem_pct": "9.92%",
+        "net_io": "192MB / 2.04GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:04"
+    },
+    {
+      "glpi": {
+        "cpu": "2.04%",
+        "mem_uso": "568.7MiB / 6.674GiB",
+        "mem_pct": "8.32%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 7.77MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.21%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:07"
+    },
+    {
+      "glpi": {
+        "cpu": "2.00%",
+        "mem_uso": "556.9MiB / 6.674GiB",
+        "mem_pct": "8.15%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.15MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.21%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:10"
+    },
+    {
+      "glpi": {
+        "cpu": "3.35%",
+        "mem_uso": "548MiB / 6.674GiB",
+        "mem_pct": "8.02%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.15MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.13%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:13"
+    },
+    {
+      "glpi": {
+        "cpu": "2.44%",
+        "mem_uso": "538.6MiB / 6.674GiB",
+        "mem_pct": "7.88%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.15MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.03%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:17"
+    },
+    {
+      "glpi": {
+        "cpu": "3.36%",
+        "mem_uso": "526.7MiB / 6.674GiB",
+        "mem_pct": "7.71%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.15MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.05%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:21"
+    },
+    {
+      "glpi": {
+        "cpu": "9.95%",
+        "mem_uso": "517.6MiB / 6.674GiB",
+        "mem_pct": "7.57%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.15MB"
+      },
+      "glpi-mysql": {
+        "cpu": "4.07%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:24"
+    },
+    {
+      "glpi": {
+        "cpu": "3.04%",
+        "mem_uso": "505.8MiB / 6.674GiB",
+        "mem_pct": "7.40%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.16MB"
+      },
+      "glpi-mysql": {
+        "cpu": "0.96%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:28"
+    },
+    {
+      "glpi": {
+        "cpu": "2.39%",
+        "mem_uso": "496.4MiB / 6.674GiB",
+        "mem_pct": "7.26%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.16MB"
+      },
+      "glpi-mysql": {
+        "cpu": "0.99%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:32"
+    },
+    {
+      "glpi": {
+        "cpu": "1.90%",
+        "mem_uso": "484.4MiB / 6.674GiB",
+        "mem_pct": "7.09%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.16MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.05%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:35"
+    },
+    {
+      "glpi": {
+        "cpu": "5.73%",
+        "mem_uso": "473.2MiB / 6.674GiB",
+        "mem_pct": "6.92%",
+        "net_io": "2.1GB / 2.13GB",
+        "block_io": "95.7MB / 8.16MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.29%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 38.8MB"
+      },
+      "timestamp": "20:55:39"
+    },
+    {
+      "glpi": {
+        "cpu": "1.95%",
+        "mem_uso": "461.5MiB / 6.674GiB",
+        "mem_pct": "6.75%",
+        "net_io": "2.11GB / 2.13GB",
+        "block_io": "95.7MB / 8.19MB"
+      },
+      "glpi-mysql": {
+        "cpu": "0.99%",
+        "mem_uso": "667.4MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "193MB / 2.05GB",
+        "block_io": "171MB / 39MB"
+      },
+      "timestamp": "20:55:43"
+    },
+    {
+      "glpi": {
+        "cpu": "455.28%",
+        "mem_uso": "455.1MiB / 6.674GiB",
+        "mem_pct": "6.66%",
+        "net_io": "2.12GB / 2.14GB",
+        "block_io": "95.7MB / 8.19MB"
+      },
+      "glpi-mysql": {
+        "cpu": "85.71%",
+        "mem_uso": "668MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "194MB / 2.05GB",
+        "block_io": "171MB / 39MB"
+      },
+      "timestamp": "20:55:47"
+    },
+    {
+      "glpi": {
+        "cpu": "124.58%",
+        "mem_uso": "452.1MiB / 6.674GiB",
+        "mem_pct": "6.61%",
+        "net_io": "2.13GB / 2.16GB",
+        "block_io": "95.7MB / 8.19MB"
+      },
+      "glpi-mysql": {
+        "cpu": "4.16%",
+        "mem_uso": "667.5MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "195MB / 2.07GB",
+        "block_io": "171MB / 39MB"
+      },
+      "timestamp": "20:55:51"
+    },
+    {
+      "glpi": {
+        "cpu": "767.85%",
+        "mem_uso": "469.7MiB / 6.674GiB",
+        "mem_pct": "6.87%",
+        "net_io": "2.16GB / 2.19GB",
+        "block_io": "95.7MB / 8.19MB"
+      },
+      "glpi-mysql": {
+        "cpu": "389.18%",
+        "mem_uso": "673.2MiB / 6.674GiB",
+        "mem_pct": "9.85%",
+        "net_io": "198MB / 2.1GB",
+        "block_io": "171MB / 39MB"
+      },
+      "timestamp": "20:55:55"
+    },
+    {
+      "glpi": {
+        "cpu": "2.01%",
+        "mem_uso": "459.9MiB / 6.674GiB",
+        "mem_pct": "6.73%",
+        "net_io": "2.16GB / 2.19GB",
+        "block_io": "95.7MB / 8.39MB"
+      },
+      "glpi-mysql": {
+        "cpu": "1.44%",
+        "mem_uso": "667.8MiB / 6.674GiB",
+        "mem_pct": "9.77%",
+        "net_io": "198MB / 2.1GB",
+        "block_io": "171MB / 39MB"
+      },
+      "timestamp": "20:55:58"
+    }
+  ]
+}
