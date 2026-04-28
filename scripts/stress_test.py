@@ -169,13 +169,28 @@ def main():
     fase7["fase"] = "Estres Critico (500 concurrentes)"
     fases.append(fase7)
 
-    # FASE 8: Punto de quiebre - 1000 concurrentes
+    # FASE 8: Hora pico universidad mediana - 1000 concurrentes
     fase8 = ejecutar_carga(token, num_peticiones=2000, num_concurrentes=1000)
-    fase8["fase"] = "Punto de Quiebre (1000 concurrentes)"
+    fase8["fase"] = "Hora Pico Universidad Mediana (1000 conc.)"
     fases.append(fase8)
 
-    # FASE 9: Tiempo de estabilizacion
-    estabilizacion = medir_estabilizacion(token, baseline_ms, max_intentos=60)
+    # FASE 9: Hora pico universidad grande - 2000 concurrentes
+    fase9 = ejecutar_carga(token, num_peticiones=4000, num_concurrentes=2000)
+    fase9["fase"] = "Hora Pico Universidad Grande (2000 conc.)"
+    fases.append(fase9)
+
+    # FASE 10: Escenario catastrofico - 5000 concurrentes
+    fase10 = ejecutar_carga(token, num_peticiones=10000, num_concurrentes=5000)
+    fase10["fase"] = "Escenario Catastrofico (5000 conc.)"
+    fases.append(fase10)
+
+    # FASE 11: Punto de quiebre absoluto - 10000 concurrentes
+    fase11 = ejecutar_carga(token, num_peticiones=20000, num_concurrentes=10000)
+    fase11["fase"] = "Punto de Quiebre Absoluto (10000 conc.)"
+    fases.append(fase11)
+
+    # FASE 12: Tiempo de estabilizacion
+    estabilizacion = medir_estabilizacion(token, baseline_ms, max_intentos=120)
 
     # Reporte final
     reporte = {
